@@ -1,0 +1,1 @@
+{"dependencies":[["vagrant-disksize",["= 0.1.3"]],["racc",["~> 1.4"]],["nokogiri",[">= 0"]],["vagrant-parallels",["= 2.4.7"]]],"checksum":"3d162863564e2c918bd41f122d55f0cf19be9f64bcd758064cac2297969c43d6","vagrant_version":"2.4.8"}
