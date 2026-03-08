@@ -1,0 +1,17 @@
+services:
+  obsidian:
+    image: linuxserver/obsidian:1.12.4
+    container_name: obsidian
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - VNC_RESOLUTION=1920x1080
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - ./obsidian/config:/config
+      - ./obsidian/vault:/vault
+    restart: unless-stopped
+
